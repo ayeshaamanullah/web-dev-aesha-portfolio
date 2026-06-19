@@ -1069,6 +1069,18 @@ a {
   transform: scale(1.1);
   box-shadow: 0 12px 36px rgba(234, 67, 53, 0.5);
 }
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mobile-nav-links .nav-link {
+    display: block;
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border-radius: var(--radius-md);
+}
 
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
