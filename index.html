@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn web development from scratch with Aesha. Practical, live interactive classes for beginners, freelancers, and job seekers. HTML, CSS, JavaScript, and real projects.">
+  <title>Learn Web Development with Aesha | Practical Online Classes</title>
+  <!-- Font Awesome 6 for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Inter + Space Grotesk for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <!-- Floating Contact Buttons -->
+  <div class="floating-buttons">
+    <a href="https://wa.me/923193693887" target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" aria-label="Chat on WhatsApp" data-tooltip="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="mailto:aesha.webdev@gmail.com" class="floating-btn floating-email" aria-label="Send Email" data-tooltip="Send Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+
+  <!-- Premium Glassmorphism Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-wrapper">
+      <div class="nav-container">
+        <a href="#" class="nav-logo">Aesha<span class="text-purple">.dev</span></a>
+        
+        <!-- Desktop Navigation Links -->
+        <div class="nav-links" id="navLinks">
+          <a href="#learn" class="nav-link">What You'll Learn</a>
+          <a href="#highlights" class="nav-link">Highlights</a>
+          <a href="#who" class="nav-link">Who Is This For</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <a href="#contact" class="nav-link nav-link-contact">Contact</a>
+        </div>
+        
+        <div class="nav-actions">
+          <!-- Hamburger Menu Button -->
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- 1. Hero Section - Dark Navy Gradient -->
+    <section class="hero" id="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="hero-badge">✨ Live Interactive Classes</span>
+            <h1 class="hero-title">Learn Web Development <span class="text-highlight">with Aesha</span></h1>
+            <p class="hero-subtitle">"Learn Today, Code Tomorrow, Change Your Life."</p>
+            <p class="hero-description">Practical, beginner-friendly training designed to take you from zero to a job-ready portfolio. Start building real projects from day one.</p>
+            <div class="hero-cta">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSflDHF3H5A17MmFFm38rxLpuS3PL_7zLAYlJ49jmpaqUidbsg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+                <i class="fas fa-graduation-cap"></i> Register for FREE First Class
+              </a>
+              <div class="hero-contact-buttons">
+                <a href="https://wa.me/923193693887" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+                  <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                </a>
+                <a href="mailto:aesha.webdev@gmail.com" class="btn btn-email">
+                  <i class="fas fa-envelope"></i> Send Email
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="code-card">
+              <div class="code-header">
+                <span class="code-dot red"></span>
+                <span class="code-dot yellow"></span>
+                <span class="code-dot green"></span>
+              </div>
+              <div class="code-snippet">
+                <pre><code><span class="tag"><</span><span class="tag-name">html</span><span class="tag">></span>
+  <span class="tag"><</span><span class="tag-name">body</span><span class="tag">></span>
+    <span class="tag"><</span><span class="tag-name">h1</span><span class="tag">></span>Hello, World!<span class="tag"><</span><span class="tag-name">/h1</span><span class="tag">></span>
+    <span class="tag"><</span><span class="tag-name">p</span><span class="tag">></span>I build with Aesha<span class="tag"><</span><span class="tag-name">/p</span><span class="tag">></span>
+  <span class="tag"><</span><span class="tag-name">/body</span><span class="tag">></span>
+<span class="tag"><</span><span class="tag-name">/html</span><span class="tag">></span></code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. What You Will Learn - Light Section -->
+    <section class="section-padding section-light" id="learn">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title-dark">What You Will <span class="text-purple">Learn</span></h2>
+          <p class="section-desc-dark">Core technologies to kickstart your web development journey.</p>
+        </div>
+        <div class="card-grid grid-4">
+          <div class="learn-card card-light">
+            <div class="learn-icon"><i class="fab fa-html5"></i></div>
+            <h3>HTML</h3>
+            <p>Structure the web with semantic markup and accessibility in mind.</p>
+          </div>
+          <div class="learn-card card-light">
+            <div class="learn-icon"><i class="fab fa-css3-alt"></i></div>
+            <h3>CSS</h3>
+            <p>Style beautiful, responsive layouts using modern techniques.</p>
+          </div>
+          <div class="learn-card card-light">
+            <div class="learn-icon"><i class="fab fa-js-square"></i></div>
+            <h3>JavaScript</h3>
+            <p>Add interactivity and logic to create dynamic web experiences.</p>
+          </div>
+          <div class="learn-card card-light">
+            <div class="learn-icon"><i class="fas fa-project-diagram"></i></div>
+            <h3>Real Projects</h3>
+            <p>Build a portfolio with 5+ projects guided step-by-step.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Course Highlights - Dark Section -->
+    <section class="section-padding section-dark" id="highlights">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title-light">Course <span class="text-purple">Highlights</span></h2>
+          <p class="section-desc-light">Everything you need for a successful learning experience.</p>
+        </div>
+        <div class="card-grid grid-4">
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-laptop-code highlight-icon"></i>
+            <h3>Live Interactive Classes</h3>
+            <p>Real-time learning with direct instructor interaction.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-chalkboard-teacher highlight-icon"></i>
+            <h3>70% Practical, 30% Theory</h3>
+            <p>Hands-on coding from the very first session.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-folder-open highlight-icon"></i>
+            <h3>Real Projects</h3>
+            <p>Work on industry-relevant projects for your portfolio.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="far fa-clock highlight-icon"></i>
+            <h3>Flexible Timings</h3>
+            <p>Schedule that fits students, job seekers, and homemakers.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-user-friends highlight-icon"></i>
+            <h3>Personal Doubt Support</h3>
+            <p>One-on-one guidance whenever you're stuck.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-video highlight-icon"></i>
+            <h3>Google Meet / Zoom</h3>
+            <p>Join from anywhere with reliable platforms.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-certificate highlight-icon"></i>
+            <h3>Certificate of Completion</h3>
+            <p>Official recognition to boost your profile.</p>
+          </div>
+          <div class="highlight-card glass-card-dark">
+            <i class="fas fa-briefcase highlight-icon"></i>
+            <h3>Freelancing Guidance</h3>
+            <p>Learn how to start earning as a freelance developer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Who Is This Course For? - Light Section -->
+    <section class="section-padding section-light" id="who">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title-dark">Who Is This <span class="text-purple">For?</span></h2>
+          <p class="section-desc-dark">This course is crafted for ambitious individuals ready to start.</p>
+        </div>
+        <div class="card-grid grid-5">
+          <div class="audience-card card-light">
+            <i class="fas fa-seedling"></i>
+            <h3>Beginners</h3>
+            <p>Zero knowledge required. Start from absolute scratch.</p>
+          </div>
+          <div class="audience-card card-light">
+            <i class="fas fa-user-graduate"></i>
+            <h3>Students</h3>
+            <p>Complement your studies with practical, in-demand skills.</p>
+          </div>
+          <div class="audience-card card-light">
+            <i class="fas fa-laptop-house"></i>
+            <h3>Freelancers</h3>
+            <p>Expand your service offerings and increase your income.</p>
+          </div>
+          <div class="audience-card card-light">
+            <i class="fas fa-bullseye"></i>
+            <h3>Job Seekers</h3>
+            <p>Build a portfolio that stands out to employers.</p>
+          </div>
+          <div class="audience-card card-light">
+            <i class="fas fa-home"></i>
+            <h3>Housewives</h3>
+            <p>Learn a flexible, high-value skill from home.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FAQ Section - Dark Section -->
+    <section class="section-padding section-dark-alt" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title-light">Frequently Asked <span class="text-purple">Questions</span></h2>
+        </div>
+        <div class="faq-container">
+          <div class="faq-item glass-card-dark">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do I need any prior coding knowledge?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Not at all! This course is designed for absolute beginners. We start from the very basics and build up your skills step by step.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-dark">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the class duration and schedule?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Classes typically run for 60-90 minutes. We offer flexible timings, and you can discuss your availability directly with Aesha to find a suitable slot.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-dark">
+            <button class="faq-question" aria-expanded="false">
+              <span>How do I attend the live classes?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>All live sessions are conducted via Google Meet or Zoom. You'll receive a link before each class. All you need is a computer and internet connection.</p>
+            </div>
+          </div>
+          <div class="faq-item glass-card-dark">
+            <button class="faq-question" aria-expanded="false">
+              <span>Will I get a certificate after completion?</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, you will receive a Certificate of Completion that you can share on LinkedIn or include in your portfolio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Contact Section - Dark Gradient -->
+    <section class="section-padding section-contact" id="contact">
+      <div class="contact-glow"></div>
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title-light">Start Your <span class="text-yellow">Journey</span> Today</h2>
+          <p class="section-desc-light">Ready to code? Reach out directly or register for a free first class.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info ">
+            <div class="contact-detail">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <span>Phone</span>
+                <a href="tel:03193693887">03193693887</a>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span>Email</span>
+                <a href="mailto:aesha.webdev@gmail.com">aesha.webdev@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-actions-large">
+              <a href="https://wa.me/923193693887" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-lg btn-block">
+                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+              </a>
+              <a href="mailto:aesha.webdev@gmail.com" class="btn btn-email btn-lg btn-block">
+                <i class="fas fa-envelope"></i> Send Email
+              </a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSflDHF3H5A17MmFFm38rxLpuS3PL_7zLAYlJ49jmpaqUidbsg/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-block">
+                <i class="fas fa-graduation-cap"></i> Register for FREE First Class
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. Footer - Full Dark Navy -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h3>Learn Web Development with Aesha</h3>
+        <p class="tagline">"Learn Today, Code Tomorrow, Change Your Life."</p>
+      </div>
+      <div class="footer-icons">
+        <a href="https://wa.me/923193693887" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="footer-icon-link">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="mailto:aesha.webdev@gmail.com" aria-label="Email" class="footer-icon-link">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <script>document.write(new Date().getFullYear());</script> Learn Web Development with Aesha. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
